@@ -1,14 +1,9 @@
-body{
-    background-color:aqua 
-}
-
-h2 {
-    color:indigo;
-    font-family: 'Fjalla One', sans-serif;
+body {
+    background-color:cadetblue;
 }
 
 h3 {
-    color:indigo;
+    color: antiquewhite
 }
 
 caption {
@@ -18,9 +13,34 @@ caption {
 }
 
 td {
-    background-color: white;
+    background-color:floralwhite;
+    font-style: italic;
 }
 
 ul {
-    color:hotpink;
+    color:gold;
+}
+
+a {
+    font-family: 'Fjalla One';
+    text-decoration: none;
+    font-weight: bolder;
+    color: antiquewhite;
+}
+
+a:link {
+    background-color: antiquewhite;
+}
+
+a:visited {
+    background-color: orange;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color:red;
+}
+
+a:active {
+    font-weight: bold;
 }
