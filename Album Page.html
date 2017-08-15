@@ -3,6 +3,9 @@
     <head>
          <link rel="stylesheet" 
             href="https://fonts.googleapis.com/css?family=Fjalla+One">
+        <link rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <title>Silent Alarm</title>
         <style>
             body{
@@ -17,7 +20,6 @@
                 font-weight: bold;
             }
             td {
-                background-color:floralwhite;
                 font-style: italic;
             }
             ul {
@@ -45,17 +47,22 @@
 
             a:active {
                 font-weight: bold;
-            }            
+            } 
+
+            tbody tr:nth-child(even) {
+                background:lightcyan;
+            }
+            tbody tr:nth-child(odd) {
+                background:antiquewhite
+            }
         </style>
     </head>
     <body>
-    <div>
-        <p style="text-align:center;"><img src="images/silentalarmcover.jpg"/></p>
+    <div class="container-fluid"> 
+        <p style="text-align:center;"><img src="images/silentalarmcover.jpg" class="img-circle"/></p>
     </div>
-    <div>
     <center><h1><p style="color:antiquewhite";> Silent Alarm</p></h1></center>
     </p>
-    </div>
     <p>
         <center><a href="https://en.wikipedia.org/wiki/Bloc_Party"> 
             Bloc Party</a></center>
@@ -73,13 +80,16 @@
             <li>Matt Tong, Drums</li>
             <li>Paul Epworth, Producer</li></i>
             </ul>
-            <center><table border="1" width="85%"></center>
-            <caption>Tracks</caption>
+        <div class="table-responsive">
+        <table class="table table stripped">
+            <thead>
             <tr bgcolor="grey">
-            <th width=10%>Track #</th>
-            <th width=30%>Track Title</th>
-            <th>Track Length</th>
+            <th><center>Track #</center></th>
+            <th><center>Track Title</center></th>
+            <th><center>Track Length</center></th>
             </tr>
+            </thead>
+        <tbody>
         <tr>
             <td><center>1</center></td>
             <td><center>Like Eating Glass</center></td>
@@ -145,6 +155,8 @@
             <td><center>Compliments</center></td>
             <td><center>4:43</center></td>
         </tr>
+        </tbody>
     </table>
+    </div>
     </body>
 </html>

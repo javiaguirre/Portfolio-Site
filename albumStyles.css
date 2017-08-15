@@ -44,3 +44,11 @@ a:hover {
 a:active {
     font-weight: bold;
 }
+
+tbody tr:nth-child(even) {
+    background: lightcyan;
+}
+
+tbody tr:nth-child(odd) {
+    background: antiquewhite;
+}
